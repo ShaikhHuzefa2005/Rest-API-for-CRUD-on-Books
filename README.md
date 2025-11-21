@@ -1,12 +1,12 @@
 # Rest-API-for-CRUD-on-Books
 
-📚 Book Management REST API
+## 📚 Book Management REST API
 
 A simple REST API built using Node.js and Express to manage a list of books.
 This project was created as part of the Web Development Internship – Task 3 (Book CRUD API).
 The API uses in-memory storage, so no database is required.
 
-🚀 Features
+## 🚀 Features
 
 Get all books
 
@@ -20,7 +20,7 @@ JSON-based API
 
 Built using Express.js middleware and routing
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 
 Node.js
 
@@ -28,11 +28,11 @@ Express.js
 
 Postman (for testing)
 
-📂 Project Setup
-1️⃣ Install dependencies
+## 📂 Project Setup
+# 1️⃣ Install dependencies
 npm install
 
-2️⃣ Run the server
+# 2️⃣ Run the server
 node server.js
 
 
@@ -40,7 +40,7 @@ The server will start at:
 
 http://localhost:3000
 
-📘 API Endpoints
+## 📘 API Endpoints
 ✔ GET all books
 
 GET /books
@@ -72,14 +72,14 @@ Body (JSON):
 
 DELETE /books/:id
 
-📦 Example Book Object
+## 📦 Example Book Object
 {
   "id": 1,
   "title": "Atomic Habits",
   "author": "James Clear"
 }
 
-🧪 Testing
+## 🧪 Testing
 
 Use Postman to send requests to the API:
 
@@ -91,13 +91,13 @@ PUT → update book details
 
 DELETE → remove a book
 
-📄 Project Structure
+## 📄 Project Structure
 📁 project-folder
 │── server.js
 │── package.json
 │── README.md
 
-📝 Notes
+## 📝 Notes
 
 Data is stored in memory, so it resets every time the server restarts.
 
